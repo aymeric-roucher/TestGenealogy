@@ -354,7 +354,6 @@ function App() {
   return (
     <div className="max-w-7xl mx-auto px-4 pb-16">
       <header className="py-8 border-b border-black/20 mb-8">
-        <p className="engraved text-xs tracking-[0.5em] text-black/70 mb-2">Ascendants</p>
         <h1 className="font-display text-4xl sm:text-5xl text-ink leading-none">
           Arbre généalogique
         </h1>
