@@ -1,0 +1,11 @@
+[project]
+name = "testgenealogy"
+version = "0.1.0"
+description = "Parser for Sosa-numbered genealogy data"
+requires-python = ">=3.12"
+dependencies = [
+    "pydantic>=2.12.5",
+]
+
+[project.scripts]
+parse-genealogy = "parse_genealogy:main"
